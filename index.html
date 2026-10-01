@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MINGA — Todo vuelve a Chile</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/icon.png">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="stage">
+    <div class="device">
+      <nav class="navbar" data-controller="navbar">
+    <a href="#inicio" class="navbar__logo">Minga<span class="accent">.</span></a>
+    <div class="navbar__links">
+      <a href="#modelo" class="nav-link">Modelo</a>
+      <a href="#empresas" class="nav-link">Empresas</a>
+      <a href="#impacto" class="nav-link">Impacto</a>
+      <a href="#manifiesto" class="nav-link">Manifiesto</a>
+    </div>
+  </nav>
+      <div id="inicio">
+        <div data-controller="hero">
+    <header class="hero-stacked__mobile mobile-only">
+      <div class="wordmark">
+    <span class="wordmark__logo">Minga<span class="accent">.</span></span>
+    <span class="label">Fundación · CL</span>
+  </div>
+      <div style="height: 12px;"></div>
+      <hr class="rule rule--faint">
+      <nav class="topbar-links">
+        <a href="#modelo" class="nav-link">Modelo</a>
+        <a href="#empresas" class="nav-link">Empresas</a>
+        <a href="#impacto" class="nav-link">Impacto</a>
+        <a href="#manifiesto" class="nav-link">Manifiesto</a>
+      </nav>
+      <div style="height: 30px;"></div>
+
+      <h1>
+        <span class="reveal-line"><span>Donamos</span></span>
+        <span class="reveal-line"><span>a Chile <span class="italic" style="font-weight: 400;">todo</span></span></span>
+        <span class="reveal-line"><span style="font-weight: 400;">lo que ganan</span></span>
+        <span class="reveal-line"><span style="font-weight: 400;">nuestras</span></span>
+        <span class="reveal-line"><span>empresas.</span></span>
+      </h1>
+
+      <div style="height: 26px;"></div>
+
+      <p class="hero-sub fade-up d2">
+        Y <span class="accent italic" style="font-family: var(--serif); font-weight: 600;">tú decides</span> a dónde va cada peso.
+      </p>
+
+      <div style="height: 44px;"></div>
+      <hr class="rule">
+    </header>
+
+    <header class="desktop-only">
+      <div class="masthead">
+    <span class="masthead__logo">Minga<span class="accent">.</span></span>
+    <div class="masthead__nav">
+      <nav class="masthead__links">
+        <a href="#modelo" class="nav-link">Modelo</a>
+        <a href="#empresas" class="nav-link">Empresas</a>
+        <a href="#impacto" class="nav-link">Impacto</a>
+        <a href="#manifiesto" class="nav-link">Manifiesto</a>
+      </nav>
+      <div class="masthead__nav-item">
+        <div class="label label--ink masthead__nav-label">Fundación</div>
+        <div class="masthead__nav-text">Chile · Est. 2026</div>
+      </div>
+      <a href="#" class="masthead__cta">Súmate <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+      <hr class="rule">
+      <div class="hero-stacked__desktop">
+        <h1>
+          <span class="reveal-line"><span>Donamos a Chile <span class="italic" style="font-weight: 400;">todo</span></span></span>
+          <span class="reveal-line"><span style="font-weight: 400;">lo que ganan nuestras</span></span>
+          <span class="reveal-line"><span>empresas.</span></span>
+        </h1>
+
+        <div style="height: clamp(34px, 5vh, 64px);"></div>
+        <div class="hero-bottom">
+          <p class="hero-sub fade-up d2">
+            Y <span class="accent italic" style="font-family: var(--serif); font-weight: 600;">tú decides</span> a dónde va cada peso que ganamos.
+          </p>
+        </div>
+      </div>
+      <hr class="rule">
+    </header>
+  </div>
+      </div>
+      <div class="marquee band">
+    <div class="marquee__track band__track">
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Todo vuelve a Chile
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+    </div>
+  </div>
+      <div id="modelo">
+        <div class="reveal mobile-only" data-controller="reveal">
+    <section style="padding: 54px var(--gutter) 10px;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 18px;">
+        <span class="label label--ink">Cómo funciona</span>
+        <span class="label">El modelo</span>
+      </div>
+      <h2 class="how-it-works__title how-it-works__title--mobile fade-up">
+        Una fundación que <span class="italic accent">produce</span>, impulsada por el mercado.
+      </h2>
+
+      <div style="height: 34px;"></div>
+      <div class="steps-mobile">
+          <hr class="rule rule--faint">
+          <div class="step fade-up" style="transition-delay: 0.0s;">
+            <span class="step__number">01</span>
+            <div>
+              <h3 class="step__title">Creamos empresas</h3>
+              <p class="step__desc">Fundamos y albergamos negocios reales —inmobiliarias, obras civiles, servicios financieros— que compiten y ganan en el mercado de verdad.</p>
+            </div>
+          </div>
+          <hr class="rule rule--faint">
+          <div class="step fade-up" style="transition-delay: 0.08s;">
+            <span class="step__number">02</span>
+            <div>
+              <h3 class="step__title">Donamos el 100%</h3>
+              <p class="step__desc">Cada peso de utilidad se invierte en Chile, nada se queda en el camino.</p>
+            </div>
+          </div>
+          <hr class="rule rule--faint">
+          <div class="step fade-up" style="transition-delay: 0.16s;">
+            <span class="step__number">03</span>
+            <div>
+              <h3 class="step__title">Tú decides dónde</h3>
+              <p class="step__desc">La comunidad vota a qué causa va el dinero. Educación, salud, barrio. Mandas tú.</p>
+            </div>
+          </div>
+        <hr class="rule rule--faint">
+      </div>
+    </section>
+  </div>
+
+  <div class="reveal desktop-only" data-controller="reveal">
+    <section style="padding: clamp(70px, 9vh, 130px) 0 0;">
+      <div style="padding: 0 var(--gutter);">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 28px;">
+          <span class="label label--ink">Cómo funciona</span>
+          <span class="label">El modelo</span>
+        </div>
+        <h2 class="how-it-works__title how-it-works__title--desktop fade-up">
+          Una fundación que <span class="italic accent">produce</span>, impulsada por el mercado.
+        </h2>
+      </div>
+      <hr class="rule">
+      <div class="steps-desktop">
+          <div class="step fade-up" style="transition-delay: 0.0s;">
+            <span class="step__number">01</span>
+            <h3 class="step__title">Creamos empresas</h3>
+            <p class="step__desc">Fundamos y albergamos negocios reales —inmobiliarias, obras civiles, servicios financieros— que compiten y ganan en el mercado de verdad.</p>
+          </div>
+          <div class="step fade-up" style="transition-delay: 0.1s;">
+            <span class="step__number">02</span>
+            <h3 class="step__title">Donamos el 100%</h3>
+            <p class="step__desc">Cada peso de utilidad se invierte en Chile, nada se queda en el camino.</p>
+          </div>
+          <div class="step fade-up" style="transition-delay: 0.2s;">
+            <span class="step__number">03</span>
+            <h3 class="step__title">Tú decides dónde</h3>
+            <p class="step__desc">La comunidad vota a qué causa va el dinero. Educación, salud, barrio. Mandas tú.</p>
+          </div>
+      </div>
+      <hr class="rule">
+    </section>
+  </div>
+      </div>
+      <div class="marquee band">
+    <div class="marquee__track band__track">
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.4em; padding-right: 0.4em;">
+          Tú decides dónde
+          <img alt="" style="height: 0.8em; width: auto; transform: translateY(-0.05em);" src="img/copihue.svg" />
+        </span>
+    </div>
+  </div>
+      <div id="empresas">
+        <div class="reveal" data-controller="reveal">
+    <section style="padding-top: 44px; padding-bottom: 8px;" class="mobile-only">
+      <div style="padding: 0 var(--gutter);">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 18px;">
+          <span class="label label--ink">Empresas Minga</span>
+          <span class="label">03 empresas</span>
+        </div>
+        <h2 class="companies__title companies__title--mobile fade-up">Empresas Minga</h2>
+        <p class="companies__desc companies__desc--mobile fade-up">Nuestro motor. El mercado al servicio de Chile.</p>
+        <div style="height: 26px;"></div>
+      </div>
+      <hr class="rule">
+        <div class="company-row fade-up" style="transition-delay: 0.0s;">
+          <span class="company-row__name">Andes</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--active">
+            ● Operando
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+        <div class="company-row fade-up" style="transition-delay: 0.05s;">
+          <span class="company-row__name">Minga Reparaciones</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--pilot">
+            ○ Piloto
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+        <div class="company-row fade-up company-row--muted" style="transition-delay: 0.1s;">
+          <span class="company-row__name">Obras</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--upcoming">
+            ○ Próximamente
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+      <p class="label" style="padding: 16px var(--gutter);">
+        Cada logo / razón social es un placeholder — se reemplaza por las marcas reales.
+      </p>
+    </section>
+
+    <section class="desktop-only" style="padding: clamp(70px, 9vh, 130px) 0 8px;">
+      <div style="padding: 0 var(--gutter);">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 28px;">
+          <span class="label label--ink">Empresas Minga</span>
+          <span class="label">03 empresas</span>
+        </div>
+        <h2 class="companies__title companies__title--desktop fade-up">Empresas Minga</h2>
+        <p class="companies__desc companies__desc--desktop fade-up">Nuestro motor. El mercado al servicio de Chile.</p>
+        <div style="height: 40px;"></div>
+      </div>
+      <hr class="rule">
+        <div class="company-row fade-up" style="transition-delay: 0.0s;">
+          <span class="label" style="flex-shrink: 0; width: 54px;">01</span>
+          <span class="company-row__name">Andes</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--active">
+            ● Operando
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+        <div class="company-row fade-up" style="transition-delay: 0.05s;">
+          <span class="label" style="flex-shrink: 0; width: 54px;">02</span>
+          <span class="company-row__name">Minga Reparaciones</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--pilot">
+            ○ Piloto
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+        <div class="company-row fade-up company-row--muted" style="transition-delay: 0.1s;">
+          <span class="label" style="flex-shrink: 0; width: 54px;">03</span>
+          <span class="company-row__name">Obras</span>
+          <span class="label company-row__cat"></span>
+          <span class="company-row__state company-row__state--upcoming">
+            ○ Próximamente
+          </span>
+        </div>
+        <hr class="rule rule--faint">
+      <p class="label" style="padding: 22px var(--gutter);">
+        Cada logo / razón social es un placeholder — se reemplaza por las marcas reales.
+      </p>
+    </section>
+  </div>
+      </div>
+      <div id="impacto">
+        <div class="reveal mobile-only" data-controller="reveal">
+    <section class="impact impact--mobile">
+      <div class="impact__header">
+        <span class="label">El impacto</span>
+        <span class="label">Cifras 2026*</span>
+      </div>
+        <div class="stat fade-up" style="transition-delay: 0.0s;">
+          <div class="impact__stat-big impact__stat-big--mobile">$1.240M</div>
+          <div class="impact__stat-sub impact__stat-sub--mobile">donados a la comunidad</div>
+        </div>
+        <div class="stat fade-up" style="transition-delay: 0.08s;">
+          <div class="impact__stat-big impact__stat-big--mobile">48</div>
+          <div class="impact__stat-sub impact__stat-sub--mobile">causas financiadas</div>
+        </div>
+        <div class="stat fade-up" style="transition-delay: 0.16s;">
+          <div class="impact__stat-big impact__stat-big--mobile">210 mil</div>
+          <div class="impact__stat-sub impact__stat-sub--mobile">votos emitidos por personas</div>
+        </div>
+        <div class="stat fade-up" style="transition-delay: 0.24s;">
+          <div class="impact__stat-big impact__stat-big--mobile">100%</div>
+          <div class="impact__stat-sub impact__stat-sub--mobile">de las utilidades, siempre</div>
+        </div>
+      <p class="impact__note">* Cifras de demostración</p>
+    </section>
+  </div>
+
+  <div class="reveal desktop-only" data-controller="reveal">
+    <section class="impact impact--desktop">
+      <div class="impact__header">
+        <span class="label">El impacto</span>
+        <span class="label">Cifras 2026*</span>
+      </div>
+      <div class="stats-grid">
+          <div class="stat fade-up" style="transition-delay: 0.0s;">
+            <div class="impact__stat-big impact__stat-big--desktop">$1.240M</div>
+            <div class="impact__stat-sub impact__stat-sub--desktop">donados a la comunidad</div>
+          </div>
+          <div class="stat fade-up" style="transition-delay: 0.08s;">
+            <div class="impact__stat-big impact__stat-big--desktop">48</div>
+            <div class="impact__stat-sub impact__stat-sub--desktop">causas financiadas</div>
+          </div>
+          <div class="stat fade-up" style="transition-delay: 0.16s;">
+            <div class="impact__stat-big impact__stat-big--desktop">210 mil</div>
+            <div class="impact__stat-sub impact__stat-sub--desktop">votos emitidos por personas</div>
+          </div>
+          <div class="stat fade-up" style="transition-delay: 0.24s;">
+            <div class="impact__stat-big impact__stat-big--desktop">100%</div>
+            <div class="impact__stat-sub impact__stat-sub--desktop">de las utilidades, siempre</div>
+          </div>
+      </div>
+      <p class="impact__note">* Cifras de demostración</p>
+    </section>
+  </div>
+      </div>
+      <div id="manifiesto">
+        <div class="reveal mobile-only" data-controller="reveal">
+    <section style="padding: 56px var(--gutter);">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 18px;">
+        <span class="label label--ink">Por qué existimos</span>
+        <span class="label">Manifiesto</span>
+      </div>
+      <p class="manifesto__text manifesto__text--mobile fade-up">
+        Creemos que la generosidad no debería depender de la caridad de unos pocos.
+        Por eso construimos empresas que <span class="italic accent">trabajan para todos</span> y
+        ponemos cada decisión en manos de la gente. Minga es la palabra antigua para el
+        trabajo hecho en comunidad. <span style="color: var(--ink-soft);">Hoy es una forma de devolverle a Chile lo que Chile produce.</span>
+      </p>
+    </section>
+  </div>
+
+  <div class="reveal desktop-only" data-controller="reveal">
+    <section style="padding: clamp(80px, 11vh, 160px) var(--gutter);">
+      <div style="display: grid; grid-template-columns: minmax(180px, 240px) 1fr; gap: clamp(30px, 4vw, 80px); align-items: start;">
+        <div class="label label--ink" style="padding-top: 14px;">Manifiesto — por qué existimos</div>
+        <p class="manifesto__text manifesto__text--desktop fade-up">
+          Creemos que la generosidad no debería depender de la caridad de unos pocos.
+          Por eso construimos empresas que <span class="italic accent">trabajan para todos</span> y
+          ponemos cada decisión en manos de la gente. Minga es la palabra antigua para el
+          trabajo hecho en comunidad. <span style="color: var(--ink-soft);">Hoy es una forma de devolverle a Chile lo que Chile produce.</span>
+        </p>
+      </div>
+    </section>
+  </div>
+      </div>
+      <footer class="footer mobile-only">
+    <div class="reveal" data-controller="reveal">
+      <div style="padding: 34px var(--gutter) 18px;">
+        <div class="footer__links">
+            <a href="#" class="footer__link">Empresas</a>
+            <a href="#" class="footer__link">Causas</a>
+            <a href="#" class="footer__link">Cómo votar</a>
+            <a href="#" class="footer__link">Transparencia</a>
+            <a href="#" class="footer__link">Súmate</a>
+            <a href="#" class="footer__link">Contacto</a>
+        </div>
+
+        <a href="#" class="footer__cta">
+          <span class="footer__cta-text">Decide a dónde va tu peso</span>
+          <span class="footer__cta-arrow">→</span>
+        </a>
+      </div>
+
+      <h2 class="footer__wordmark">Minga<span class="accent">.</span></h2>
+
+      <div class="footer__bottom">
+        <span class="label">Fundación · Chile</span>
+        <span class="label">© 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer footer--desktop desktop-only">
+    <div class="reveal" data-controller="reveal">
+      <div class="footer__content">
+        <div class="footer__links">
+            <a href="#" class="footer__link">Empresas</a>
+            <a href="#" class="footer__link">Causas</a>
+            <a href="#" class="footer__link">Cómo votar</a>
+            <a href="#" class="footer__link">Transparencia</a>
+            <a href="#" class="footer__link">Súmate</a>
+            <a href="#" class="footer__link">Contacto</a>
+        </div>
+        <a href="#" class="footer__cta">
+          <span class="footer__cta-text">Decide a dónde va tu peso</span>
+          <span class="footer__cta-arrow">→</span>
+        </a>
+      </div>
+
+      <h2 class="footer__wordmark">Minga<span class="accent">.</span></h2>
+
+      <div class="footer__bottom">
+        <span class="label">Fundación · Chile · Est. 2026</span>
+        <span class="label">© 2026 — Todo vuelve a Chile</span>
+      </div>
+    </div>
+  </footer>
+    </div>
+  </div>
+</body>
+</html>
